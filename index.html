@@ -9,79 +9,85 @@
 
     <body>
 
-        <!--Beginning of header section-->
+        <!--Beginning of Header-->
         <header>
-            <!--Name/title of page-->
-            <h1>
-                Alex Lu
-            </h1>
+            <!--Named Header-->
+            <h1>Alex Lu</h1>
 
-            <!--Beginning of navigation section-->
+            <!--Nav Bar-->
             <nav>
                 <ul>
                     <!--Links to About me section-->
-                    <li>
+                    <li class="navigation">
                         <a href="#About-me">About me</a>
                     </li>
                     <!--links to section displaying previous work and example portfolio-->
-                    <li>
-                        <a href="#work">Work</a>
+                    <li class="navigation">
+                        <a href="#Portfolio">Portfolio</a>
                     </li>
                     <!--links to contact section of page-->
-                    <li>
+                    <li class="navigation">
                         <a href="#Contact-Info">Contact me</a>
                     </li>
                     <!--links to external page with resume-->
-                    <li>
+                    <li class="navigation">
                         <a href="#Resume">Resume</a>
                     </li>
                 </ul>
             </nav>
         </header>
 
-        <!--Beginning of banner-->
-        <section>
-
-        </section>
         <!--End of banner-->
 
         <!--Beginning of Bio section-->
         <article>
+            <h3 id="About-me">About me</h3>
             <!--image of myself-->
-            <content>
-            
-            </content>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti mollitia voluptatibus nemo fuga non, debitis repellat reiciendis dolores officia quia et vitae iure consequatur voluptatem cupiditate quisquam. Sequi, cumque.</p>
+            <div>
+                <img class="selfie" src="./assets/images/alex-lu.jpg" alt="">
+                <p class="bio">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error sapiente delectus cupiditate et tenetur numquam fugiat quas inventore culpa. Beatae rerum voluptates ea voluptatem, magni expedita perspiciatis eius! Voluptate, minus?</p>
+            </div>
         </article>
 
         <!--Beginning of work portfolio section-->
-        <content>
-            <figure class="run-buddy">
-                <p>students were tasked to build a simple website that demonstrates the fundamental skills of html and css</p>
-            </figure>
+        <content id="Portfolio">
+            <h3>Portfolio</h3>
+            <div>
+                <figure class="run-buddy">
+                    <h4>project 1</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quas aspernatur facilis, perferendis rem velit, nihil animi enim dolore repellat quae maiores quidem placeat doloribus atque sint debitis fuga. Est!</p>
+                </figure>
 
-            <figure class="robot-gladiator">
-                <p>students were tasked with building a game using the fundamental skills of JavaScript</p>
-            </figure>
+                <figure class="robot-gladiator">
+                    <h4>project 2</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quas aspernatur facilis, perferendis rem velit, nihil animi enim dolore repellat quae maiores quidem placeat doloribus atque sint debitis fuga. Est!</p>
+                </figure>
 
-            <figure class="">
-                <p>students were tasked to refactor and existing website to reflect developer best practices</p>
-            </figure>
+                <figure class="Horiseon">
+                    <h4>project 3</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quas aspernatur facilis, perferendis rem velit, nihil animi enim dolore repellat quae maiores quidem placeat doloribus atque sint debitis fuga. Est!</p>
+                </figure>
+
+                <figure class="watch-that-box">
+                    <h4>project 4</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quas aspernatur facilis, perferendis rem velit, nihil animi enim dolore repellat quae maiores quidem placeat doloribus atque sint debitis fuga. Est!</p>
+                </figure>
+            </div>
         </content>
             
 
         <!--Beginning of footer section-->
         <footer id="Contact-Info">
             <!--Beginning of contact me section-->
-            <h2>Contact Info</h2>
+            <h2>Contact Info</h2><h2>|</h2>
                 <!--Email link-->
-                <a href="mailto: alu1868@gmail.com">alu1868@gmail.com</a>
+                <a href="mailto: alu1868@gmail.com">Email</a>
                 <!--github link-->
                 <a href="https://github.com/alu1868">Github</a>
                 <!--linkedin link-->
                 <a href="https://www.linkedin.com/in/alex-lu-361599228/">Linkedin</a>
                 <!--second link to resume-->
-                <a href="./assets/alex-lu-resume.pdf">resume</a>
+                <a href="./assets/alex-lu-resume.pdf">Resume</a>
         </footer>
     </body>
 </html>

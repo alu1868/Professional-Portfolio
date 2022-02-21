@@ -1,0 +1,121 @@
+/* HEADER BAR SECTION */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 3px solid;
+}
+    header h1 {
+        margin: 5px 20px 5px 40px;
+        font-size: 3vw;
+    }
+
+    header nav {
+        margin: 5px 20px 5px 20px;
+    }
+
+    header nav ul  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    header nav ul li {
+        display: flex;
+        margin: 5px 20px 5px 20px;
+    }
+
+    header nav ul li a {
+        font-size: 2vw;
+    }
+
+/*BIO SECTION*/
+article {
+    border-bottom: 3px solid;
+}
+
+article h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+}
+
+article div{
+    display: flex;
+}
+
+.selfie {
+    display: flex;
+    border: 3px solid black;
+    background-color: white;
+    margin: 5px 20px 5px 20px;
+}
+
+.bio {
+    margin: 5px 20px 5px 20px;
+    display: flex;
+    border: 3px solid black;
+    background-color: white;
+}
+
+/*PORTFOLIO SECTION*/
+content h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+}
+
+    content div {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    content div figure {
+        display: flex;
+        justify-content: space-around;
+        border: 3px solid black;
+        background-color: white;
+        width: 800px;
+        height: 200px;
+        flex-wrap: wrap;
+    }
+
+    figure h4 {
+        display: flex;
+        text-align: center;
+    }
+
+    figure p {
+        border: 3px solid black;
+        background-color: white;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .run-buddy {
+        background-image: url("../images/run-buddy-bg.jpg");
+        
+    }
+
+    .robot-gladiator {
+        background-image: url("../images/robot-gladiator-bg.jpg")
+    }
+
+    .horiseon {
+        background-image: url("../images/digital-marketing-meeting.jpg");
+    }
+
+    .watch-that-box {
+        background-image: url("../images/Example.png")
+    }
+
+/*FOOTER BAR*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5vw;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
