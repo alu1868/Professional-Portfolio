@@ -2,6 +2,9 @@
 UT Coding bootcamp Challenge #2: Advanced CSS Challenge: Professional Portfolio
 
 #Description
+Make a page that demonstrates to future employers your abilities as a coder, shows off previous projects you've worked on, and how to contact you
+
+#Acceptance Criteria
 - Create a depolyed portfolio of work samples so future employers can review and assess work in order to determine if they are a fit candidate
 
 	# Acceptance Criteria
@@ -14,3 +17,5 @@ UT Coding bootcamp Challenge #2: Advanced CSS Challenge: Professional Portfolio
 	- Clicking on image should open application
 
 	- Responsive layout that adapts to user's screen resolution/size
+
+
