@@ -72,7 +72,7 @@ content h3 {
         flex-wrap: wrap;
     }
 
-    content div figure {
+    content div a figure {
         display: flex;
         justify-content: space-around;
         border: 3px solid black;
@@ -82,18 +82,21 @@ content h3 {
         flex-wrap: wrap;
     }
 
-    figure h4 {
-        display: flex;
+    .content div a figure {
         text-align: center;
     }
 
-    figure p {
+    content div a figure p {
         margin: 20px 20px 20px 20px;
         text-align: center;
     }
 
     .project-link{
         text-decoration: none;
+    }
+
+    .Covid-Risk-Tracking-Site {
+        background-image: url("../images/globe.png")
     }
 
     .run-buddy {
